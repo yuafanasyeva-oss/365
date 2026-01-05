@@ -439,7 +439,7 @@ function daysBetween(a, b) {
 const today = todayKey();
 const opened = localStorage.getItem("openedDay");
 
-const index = daysBetween("2025-12-31", today);
+const index = daysBetween("2026-01-01", today);
 const text = NOTES[index] || "Послания закончились 🤍";
 
 if (opened === today) {
